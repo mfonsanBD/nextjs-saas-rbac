@@ -11,6 +11,12 @@ importers:
       '@rocketseat/eslint-config':
         specifier: ^2.2.2
         version: 2.2.2(@types/eslint@9.6.1)(eslint@8.57.1)(typescript@5.9.2)
+      '@saas/eslint-config':
+        specifier: workspace:*
+        version: link:config/eslint-config
+      '@saas/tsconfig':
+        specifier: workspace:*
+        version: link:config/typescript-config
       eslint:
         specifier: ^8.57.0
         version: 8.57.1
